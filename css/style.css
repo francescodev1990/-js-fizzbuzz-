@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: blue;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 65px;
+}
+.container{
+    background-color: whitesmoke;
+    display: flex;
+    margin: 0 auto;
+    border: 10px solid red;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 850px;
+    height: 850px;
+}
+#tuodiv {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../img/—Pngtree—christmas\ background\ with\ golden\ snowflakes_3550998.jpg) no-repeat center top;
+    position: fixed; 
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .box{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-white{
+    background-color: white;
+  }
+  .box-red{
+    background-color: red;
+  }
